@@ -1,4 +1,4 @@
-import HomeScreen from './HomeScreen';
-import PantallaOne from './pantallaOne';
+import ModeloDeming from './Deming';
+import ModeloBoehm from './Boehm';
 import Leo from './Leo';
-export default Leo;
+export default ModeloBoehm;
