@@ -3,7 +3,7 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
 export default function HomeScreen() {
   return (
-    <SafeAreaView style={styles.container}>
+    <>
       <View style={styles.card}>
         <Text style={styles.title}>Pantalla de prueba</Text>
         <Text style={styles.description}>
@@ -11,7 +11,7 @@ export default function HomeScreen() {
         </Text>
       </View>
       <StatusBar style="auto" />
-    </SafeAreaView>
+    </>
   );
 }
 
