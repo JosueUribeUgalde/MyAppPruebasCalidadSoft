@@ -3,7 +3,8 @@
 Proyecto desarrollado para la materia de **Pruebas y Aseguramiento de Calidad del Software**.  
 Aplicación móvil construida con **React Native** y **Expo SDK 54**, orientada a practicar conceptos de pruebas y aseguramiento de calidad en el desarrollo de software.
 
----
+---cmd
+
 
 ## Requisitos previos
 

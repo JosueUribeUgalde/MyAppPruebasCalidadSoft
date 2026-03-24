@@ -1,20 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import ActiveScreen from './src/screens';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Esta es una prueba de calidad primer Home, "Josue"</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <ActiveScreen />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
