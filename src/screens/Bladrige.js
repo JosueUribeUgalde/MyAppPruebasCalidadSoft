@@ -10,7 +10,7 @@ import {
   View,
 } from 'react-native';
 
-export default function Deming() {
+export default function Bladrige() {
   const [tab, setTab] = useState('informacion');
 
   return (
@@ -20,16 +20,16 @@ export default function Deming() {
         showsVerticalScrollIndicator={false}
       >
         <Text style={styles.eyebrow}>Modelo de calidad</Text>
-        <Text style={styles.title}>Deming</Text>
+        <Text style={styles.title}>Baldrige</Text>
 
         <Text style={styles.description}>
-          Un enfoque orientado a la mejora continua de procesos, aplicado a la
-          calidad mediante planificación, control y evaluación constante.
+          Un modelo orientado a la excelencia organizacional que evalúa liderazgo,
+          estrategia, enfoque al cliente, medición y resultados para impulsar la calidad.
         </Text>
 
         <Image
           source={{
-            uri: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            uri: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
           }}
           style={styles.image}
         />
@@ -79,20 +79,20 @@ export default function Deming() {
             <>
               <View style={styles.infoCard}>
                 <Text style={styles.infoTitle}>Nombre del modelo</Text>
-                <Text style={styles.infoText}>Modelo de Calidad de Deming</Text>
+                <Text style={styles.infoText}>Modelo de Calidad Baldrige</Text>
               </View>
 
               <View style={styles.infoCard}>
                 <Text style={styles.infoTitle}>Fecha de creación</Text>
-                <Text style={styles.infoText}>Década de 1950</Text>
+                <Text style={styles.infoText}>1987</Text>
               </View>
 
               <View style={styles.infoCard}>
                 <Text style={styles.infoTitle}>Aplicaciones del modelo</Text>
-                <Text style={styles.listItem}>• Mejora continua de procesos</Text>
-                <Text style={styles.listItem}>• Control de calidad organizacional</Text>
-                <Text style={styles.listItem}>• Optimización de productos y servicios</Text>
-                <Text style={styles.listItem}>• Gestión de eficiencia y reducción de fallos</Text>
+                <Text style={styles.listItem}>• Evaluación del desempeño organizacional</Text>
+                <Text style={styles.listItem}>• Mejora continua de la calidad</Text>
+                <Text style={styles.listItem}>• Gestión estratégica y liderazgo</Text>
+                <Text style={styles.listItem}>• Medición de resultados y satisfacción del cliente</Text>
               </View>
             </>
           ) : (
@@ -100,34 +100,34 @@ export default function Deming() {
               <View style={styles.infoCard}>
                 <Text style={styles.infoTitle}>¿En qué consiste el modelo?</Text>
                 <Text style={styles.infoText}>
-                  El enfoque de Deming se basa en la mejora continua y en el uso
-                  del ciclo PHVA para planear, ejecutar, verificar y actuar sobre
-                  los procesos que afectan la calidad.
+                  El modelo Baldrige evalúa la excelencia de una organización a
+                  partir de criterios como liderazgo, planeación estratégica,
+                  clientes, información, personal, procesos y resultados.
                 </Text>
               </View>
 
               <View style={styles.infoCard}>
                 <Text style={styles.infoTitle}>Objetivo principal</Text>
                 <Text style={styles.infoText}>
-                  Lograr productos y procesos más confiables mediante evaluación
-                  constante, prevención de errores y mejora sistemática.
+                  Ayudar a las organizaciones a mejorar su desempeño integral por
+                  medio de una gestión enfocada en calidad, competitividad y resultados.
                 </Text>
               </View>
 
               <View style={styles.infoCard}>
                 <Text style={styles.infoTitle}>Características clave</Text>
-                <Text style={styles.listItem}>• Promueve la mejora continua</Text>
-                <Text style={styles.listItem}>• Usa el ciclo PHVA como base</Text>
-                <Text style={styles.listItem}>• Se enfoca en procesos y resultados</Text>
-                <Text style={styles.listItem}>• Favorece la prevención sobre la corrección</Text>
+                <Text style={styles.listItem}>• Evalúa la organización de forma integral</Text>
+                <Text style={styles.listItem}>• Se enfoca en liderazgo y estrategia</Text>
+                <Text style={styles.listItem}>• Prioriza resultados medibles</Text>
+                <Text style={styles.listItem}>• Impulsa la mejora continua y la competitividad</Text>
               </View>
 
               <View style={styles.infoCard}>
                 <Text style={styles.infoTitle}>Importancia</Text>
                 <Text style={styles.infoText}>
-                  Es importante porque convierte la calidad en una práctica
-                  constante dentro de la organización y ayuda a mejorar el
-                  desempeño de forma sostenida.
+                  Es importante porque sirve como referencia para elevar la calidad
+                  en las organizaciones, fortalecer procesos y orientar decisiones
+                  hacia resultados sostenibles.
                 </Text>
               </View>
             </>
